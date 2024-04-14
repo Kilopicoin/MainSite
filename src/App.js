@@ -462,7 +462,7 @@ const OverviewFlow = () => {
 	<a href="https://kilopi.net/exchanges/" className="nav" target="_blank" rel="noreferrer noopener">Exchanges</a>
 	<a href="https://kilopi.net/faq/" className="nav" target="_blank" rel="noreferrer noopener">FAQ</a>
   <a href="https://github.com/Kilopicoin/kilopiWiki/wiki/Media" className="nav" target="_blank" rel="noreferrer noopener">Media</a>
-  <a href="https://kilopi.net/3d/" className="nav" target="_blank" rel="noreferrer noopener">3D Page(Legacy)</a>
+  <a href="https://kilopi.net/community/" className="nav" target="_blank" rel="noreferrer noopener">Team</a>
 </div>
 </div>
 
