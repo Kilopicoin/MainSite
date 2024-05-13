@@ -10,7 +10,7 @@ import { nodes as initialNodes, edges as initialEdges } from './initial-elements
 import kilopiIcon from './res/logo_lop_150sq.png';
 import harmonyIcon from './res/logo_harmony.png';
 import binanceIcon from './res/logo_binance.png';
-import unknownIcon from './res/logo_unknown.png';
+import unknownIcon from './res/raydium.png';
 import communityIcon from './res/community.png';
 import bridgeIcon from './res/bridge.png';
 import sesIcon from './res/SES.png';
@@ -22,6 +22,7 @@ import momIcon from './res/MoM.png';
 import matcherIcon from './res/Matcher.png';
 import devsIcon from './res/Devs.png';
 import burnIcon from './res/Burn.png';
+import forgeIcon from './res/forge.png';
 
 
 
@@ -214,8 +215,8 @@ const OverviewFlow = () => {
 
 {showInfoBox && (
         <div className='info-box' style={{
-          left: position.x,
-          top: position.y,
+          left: Tip === "Forge" ? `${position.x - 100}px` : Tip === "Burn" ? `${position.x + 100}px` : Tip === "Devs" ? `${position.x + 100}px` : `${position.x}px`,
+          top: Tip === "Burn" ? `${position.y - 100}px` : Tip === "Devs" ? `${position.y - 100}px` : `${position.y}px`,
         }}>
           {Tip === "TreasuryHarmony" && (
             <>
@@ -245,8 +246,8 @@ const OverviewFlow = () => {
             <>
             <div className='ToolTip'>
             <img src={kilopiIcon} width="40" height="40" alt="Kilopi" />
-            <div>"UnknownChain" LOP token treasury is the side source of Kilopi project's tokens. Initial Supply will be 1 Billion.
-              This supply will be transferred into the UnknownChain's native DEX Liquidity slowly.
+            <div>"SolanaChain" LOP token treasury is the side source of Kilopi project's tokens. Initial Supply was 2 Billion.
+              This supply will be transferred into the SolanaChain's Raydium DEX Liquidity slowly.
             </div>
             
             </div>
@@ -287,8 +288,8 @@ const OverviewFlow = () => {
             <div className='ToolTip'>
             <img src={unknownIcon} width="35" height="35" alt="Unknown" />
             <img src={kilopiIcon} width="40" height="40" alt="Kilopi" />
-            <div> UnknownDex Liquidity is the side Liquidity Pool of Kilopi project. 
-              Buy/Sell Transactions can be done on UnknownDex for LOP tokens on UnknownChain.
+            <div> RaydiumDex Liquidity is the side Liquidity Pool of Kilopi project. 
+              Buy/Sell Transactions can be done on RaydiumDex for LOP tokens on SolanaChain.
             </div>
             
             </div>
@@ -447,12 +448,30 @@ const OverviewFlow = () => {
           )}
 
 
+{Tip === "Forge" && (
+            <>
+            <div className='ToolTip'>
+            <img src={forgeIcon} width="60" height="60" alt="Forge" /> 
+            <div> A Solana token creator app which helps to improve the liquidity of Kilopi on Solana Chain.
+            </div>
+            
+            </div>
+            </>
+          )}
+
+
 
 
 
 
         </div>
+
+
+
+
+
       )}
+
 
 
 <div className="navCont">

@@ -115,15 +115,16 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  display: block;
+  transform: translateX(-70%);
+  display:block;
   width: 200px;
-  padding: 10px;
+  padding: 8px;
   background-color: #f1f1f1;
   border: 1px solid #ccc;
   border-radius: 4px;
   color: rgb(204, 12, 12);
-  z-index: 2;
+  z-index: 10;
+
 }
 
 .ToolTip {
@@ -132,6 +133,7 @@ body {
   font-size: 12px;
   font-weight: 600;
   font-family: 'Apple Chancery', cursive;
+  z-index: 10;
 }
 
 
@@ -200,9 +202,10 @@ body {
 }
 
 .navFoot {
+  line-height: 18px;
 	position: relative;
 	padding: 0.4em 1em;
-	color: #7ca4be;
+	color: #FFA500;
 	font-size: 1em;
 	text-align: center;
 	text-decoration: none;

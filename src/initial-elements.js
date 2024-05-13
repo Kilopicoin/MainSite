@@ -37,7 +37,7 @@ export const nodes = [
     data: {
       label: (
         <div className="liquidity">
-        Swap.Country Liquidity
+        HarmonySwap Liquidity
         </div>
       ),
       link: 'https://dexscreener.com/harmony/0x18af5deaad5d9d5898753620e625f2c90f106143',
@@ -54,7 +54,7 @@ export const nodes = [
       tip: 'Pathfinder',
     },
     
-    position: { x: 1220, y: 400 },
+    position: { x: 1140, y: 400 },
   },
   {
     id: '5',
@@ -78,7 +78,7 @@ export const nodes = [
       link: 'https://kilopi.net/staking/',
       tip: 'Collector',
     },
-    position: { x: 1020, y: 400 },
+    position: { x: 960, y: 400 },
   },
   {
     id: '7',
@@ -102,7 +102,7 @@ export const nodes = [
       link: 'https://kilopi.net/dao/',
       tip: 'DAO',
     },
-    position: { x: 1420, y: 400 },
+    position: { x: 1320, y: 400 },
   },
   {
     id: '9',
@@ -112,7 +112,7 @@ export const nodes = [
       link: 'https://kilopi.net/mom/',
       tip: 'MoM',
     },
-    position: { x: 1620, y: 400 },
+    position: { x: 1500, y: 400 },
   },
   {
     id: '10',
@@ -122,7 +122,7 @@ export const nodes = [
       link: 'https://kilopi.net/skallia/',
       tip: 'Skallia',
     },
-    position: { x: 820, y: 400 },
+    position: { x: 780, y: 400 },
   },
   {
     id: '11',
@@ -132,7 +132,7 @@ export const nodes = [
       link: 'https://kilopi.net/es/',
       tip: 'SES',
     },
-    position: { x: 620, y: 400 },
+    position: { x: 600, y: 400 },
   },
   {
     id: '12',
@@ -142,7 +142,7 @@ export const nodes = [
       link: 'https://kilopi.net/matcher/',
       tip: 'Matcher',
     },
-    position: { x: 1820, y: 400 },
+    position: { x: 1680, y: 400 },
   },
   {
     id: '13',
@@ -164,7 +164,7 @@ export const nodes = [
     data: {
       label: (
         <div className="treasury">
-        LOP Token Treasury (UnknownChain)
+        LOP Token Treasury (SolanaChain)
         </div>
       ),
       link: 'https://kilopi.net/',
@@ -192,7 +192,7 @@ export const nodes = [
     data: {
       label: (
         <div className="liquidity">
-        UnkownDex Liquidity
+        RaydiumDex Liquidity
         </div>
       ),
       link: 'https://kilopi.net/',
@@ -255,6 +255,16 @@ export const nodes = [
       tip: 'BridgeUnknown',
     },
     position: { x: 1420, y: 300 },
+  },
+  {
+    id: '21',
+ 
+    data: {
+      label: 'Forge Token Creator',
+      link: 'https://kilopi.net/forge/',
+      tip: 'Forge',
+    },
+    position: { x: 1860, y: 400 },
   },
 
 
@@ -336,7 +346,7 @@ export const edges = [
   { id: 'e20-7', source: '20', target: '7', animated: true },
   { id: 'e19-7', source: '19', target: '7', animated: true },
   { id: 'e20-5', source: '20', target: '5', animated: true },
-  
+  { id: 'e21-16', source: '21', target: '16', animated: true }
 
 
 
