@@ -167,7 +167,7 @@ export const nodes = [
         LOP Token Treasury (SolanaChain)
         </div>
       ),
-      link: 'https://kilopi.net/',
+      link: 'https://solscan.io/token/7MAb9qisVNaMNt7wtjnMjCBUyaGswBKHGjzxW6Jhx9c2',
       tip: 'TreasuryUnknown',
     },
     position: { x: 1620, y: 100 },
@@ -195,7 +195,7 @@ export const nodes = [
         RaydiumDex Liquidity
         </div>
       ),
-      link: 'https://kilopi.net/',
+      link: 'https://www.dextools.io/app/en/solana/pair-explorer/JCVxDdvbVterUCHKiGWWG6ibcC4HFCg4SzmYCMP8Wr4n?t=1716623777653',
       tip: 'LiqUnknown',
     },
     position: { x: 1620, y: 200 },
