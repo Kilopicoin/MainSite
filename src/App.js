@@ -482,6 +482,19 @@ const OverviewFlow = () => {
 	<a href="https://kilopi.net/faq/" className="nav" target="_blank" rel="noreferrer noopener">FAQ</a>
   <a href="https://github.com/Kilopicoin/kilopiWiki/wiki/Media" className="nav" target="_blank" rel="noreferrer noopener">Media</a>
   <a href="https://kilopi.net/community/" className="nav" target="_blank" rel="noreferrer noopener">Team</a>
+
+
+  <a
+  href="https://kilopi.net/pod/"
+  className="nav"
+  target="_blank"
+  rel="noreferrer noopener"
+  style={{ color: '#66ffff' }}
+>
+  Proof of Development
+</a>
+
+
 </div>
 </div>
 
